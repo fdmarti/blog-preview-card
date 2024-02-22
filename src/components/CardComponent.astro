@@ -1,0 +1,17 @@
+---
+import BadgeComponent from '@/components/Card/BadgeComponent.astro';
+import ImageBannerCardComponent from '@/components/Card/ImageBannerCardComponent.astro';
+import PublishDateComponent from '@/components/Card/PublishDateComponent.astro';
+import TitleCardComponent from '@/components/Card/TitleCardComponent.astro';
+import ContentCardComponent from '@/components/Card/ContentCardComponent.astro';
+import UserInformation from '@/components/Card/UserInformation.astro';
+---
+
+<div class='bg-white max-w-80 p-5 rounded-2xl border-black border-2 shadow-black shadow-[10px_10px_0_5px_rgba(0,0,0,0.3)]'>
+	<ImageBannerCardComponent />
+	<BadgeComponent text='Learning' />
+	<PublishDateComponent text='Published 21 Dec 2023' />
+	<TitleCardComponent text='HTML & CSS foundations' />
+	<ContentCardComponent text='These languages are the backbone of every website, defining structure, content, and presentation.'/>
+	<UserInformation />
+</div>
